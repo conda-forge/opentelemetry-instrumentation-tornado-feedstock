@@ -1,11 +1,11 @@
-About opentelemetry-instrumentation-tornado
-===========================================
+About opentelemetry-instrumentation-tornado-feedstock
+=====================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-instrumentation-tornado-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-tornado
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-instrumentation-tornado-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tornado instrumentation for OpenTelemetry
 
