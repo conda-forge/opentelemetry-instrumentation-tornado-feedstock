@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-tornado" %}
-{% set version = "0.59b0" %}
+{% set version = "0.60b0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_tornado-{{ version }}.tar.gz
-  sha256: 00e8705cf2cf0a3375feef0111fa402d6d80f3ce4733e4ebcf76db12f85f0120
+  sha256: 1edb2c50f975d527ad4e374bf17fcaad9385adca65820645fe8bc17daddfe14c
 
 build:
   noarch: python
@@ -22,9 +22,9 @@ requirements:
   run:
     - python >={{ python_min }}
     - opentelemetry-api ~=1.12
-    - opentelemetry-instrumentation ==0.59b0
-    - opentelemetry-semantic-conventions ==0.59b0
-    - opentelemetry-util-http ==0.59b0
+    - opentelemetry-instrumentation ==0.60b0
+    - opentelemetry-semantic-conventions ==0.60b0
+    - opentelemetry-util-http ==0.60b0
     # - tornado >=5.1.1
     # - opentelemetry-test-utils ==0.37b0
     # - opentelemetry-instrumentation-tornado 
@@ -54,6 +54,7 @@ requirements:
     # - opentelemetry-test-utils ==0.44b0
     # - opentelemetry-instrumentation-tornado 
     # - http-server-mock 
+    # - tornado >=5.1.1
     # - tornado >=5.1.1
     # - tornado >=5.1.1
     # - tornado >=5.1.1
